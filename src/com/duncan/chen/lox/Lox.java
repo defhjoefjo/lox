@@ -49,7 +49,7 @@ public class Lox {
     }
     public static void main(String[] args) throws IOException{
         if(args.length > 1){
-            System.out.println("Oooooops");
+            System.err.println("Oooooops");
             System.exit(64);
         } else if (args.length == 1) {
             // Executing from a file
